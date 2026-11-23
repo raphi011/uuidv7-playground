@@ -3,3 +3,8 @@ build/
 .idea/
 *.iml
 .kotlin/
+infra/.terraform/
+infra/*.tfstate*
+infra/.terraform.lock.hcl
+infra/metrics/*.csv
+infra/metrics/*.log
